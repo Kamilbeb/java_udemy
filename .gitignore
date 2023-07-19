@@ -1,4 +1,6 @@
 /.idea/
+/out/
 java_udemy.iml
 /out/production/java_udemy/CustomScanner.class
-/out/production/java_udemy/HelloWorld.class
+
+
