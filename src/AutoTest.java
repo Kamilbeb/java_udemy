@@ -10,5 +10,11 @@ public class AutoTest {
         suzuki.goCar();
         suzuki.brakeCar();
         suzuki.info();
+
+        Auto audi = new Auto("Audi","A5",2020,5 );
+        audi.goCar();
+        audi.brakeCar();
+        audi.info();
     }
+
 }
