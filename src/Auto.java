@@ -4,6 +4,15 @@ public class Auto {
     public int yearCar;
     public int carMileage;
 
+    public Auto(){
+    }
+    public Auto(String mark, String model, int yearCar, int carMileage){
+    this.mark = mark;
+    this.model = model;
+    this.yearCar = yearCar;
+    this.carMileage = carMileage;
+    }
+
     public void goCar(){
         System.out.println("GO GO!!");
     }
