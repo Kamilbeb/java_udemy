@@ -15,6 +15,7 @@ public class MathTeacher extends Person {   //klasa MathTeacher rozszerza klasę
         System.out.println("I am "+ age);
     }
     public void walk(){
+        super.walk();       //wywołana metoda walk() z klasy Person
         System.out.println("I walk very fast");
     }
 }
