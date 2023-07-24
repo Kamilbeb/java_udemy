@@ -1,6 +1,12 @@
 public class MathTeacher extends Person {   //klasa MathTeacher rozszerza klasę Person
 
     public String school;
+
+    public MathTeacher(String name, int age, String school) {
+        super(name, age);
+        this.school = school;
+    }
+
     public void  teachMath(){
         System.out.println("I am teaching Math");
     }
