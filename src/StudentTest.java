@@ -1,6 +1,9 @@
 public class StudentTest {
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();         //implementacja metody statycznej
+
         Student student1 = new Student();
         Student student2 = new Student();
         Student student3 = new Student();

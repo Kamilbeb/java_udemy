@@ -4,6 +4,8 @@ public class Student {
     public String nick;
     public String email;
     public int indexNo;
+    public static String nazwaUczelni = "AGH";
+
 
     public void introduceYour(){
         System.out.println("My names: "+name+" "+surname);
@@ -16,5 +18,9 @@ public class Student {
     }
     public  void enterEmail(){
         System.out.println("My email: "+email);
+    }
+
+    public  static  void infoUczelnia(){    //metoda statyczna
+        System.out.println("Moja uczelnia to AGH");
     }
 }
