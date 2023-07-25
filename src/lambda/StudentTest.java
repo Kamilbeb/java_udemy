@@ -20,6 +20,7 @@ public class StudentTest {
         if(age>18){
             System.out.println("You can buy a beer");
         }
+
     };
     sayHello("Tom",15, noStudent);
 
