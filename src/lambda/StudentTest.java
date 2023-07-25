@@ -15,7 +15,12 @@ public class StudentTest {
     sayHello("Jan",28, med);
 
     // wyrażenie lambda poniżej i zastępuje on zapis powyższy klasy anonimowej
-    Student noStudent = (name, age) -> System.out.println("I am not a student, My name is" + name+" I am "+age);
+    Student noStudent = (name, age) ->{
+        System.out.println("I am not a student, My name is" + name+" I am "+age);
+        if(age>18){
+            System.out.println("You can buy a beer");
+        }
+    };
     sayHello("Tom",15, noStudent);
 
     }
